@@ -1,0 +1,47 @@
+--- MVP ----
+
+
+1. It should be possible to alter selection of attributes, timeframes and other through the graphs presented.
+
+The user will be able to alter the selection of current timeframe and/or attributes through input in the terminal unless a GUI is created. This can be done in numerous ways, one of them is by either removing or adding elements from/ to a list / dictionary and let plotly only show those elements. - Ahmad
+
+
+2. Visualize and analyze Karlskrona's weather data
+
+The product will be visualized as graph in matplotlib and therefore analyzed by observing the graph.
+
+
+3. Select a time interval between two days and have the data between those two days displayed in a graph
+
+The data shows through a function of set limits, where the two days acts as the parameters. The programme will gather the weather data from relevant databases and apply the data in a graph though programming in python, visualizing it on MatPlotLib.
+
+4. Produce and view graphs of each attribute (i.e. snow, rain etc.)
+
+Reads the data from either a text file or a list in python and plots the different graphs based on that data with different attributes that are selected beforehand. 
+Johan 
+
+
+5. View several attributes in the same graph 
+
+The product will be visualized as a graph with several attributes, by selection, in matplotlib.
+
+
+6. Select a year I want to view in the graph (ex.: all data & attributes of 2016) 
+
+The product will be able to generate a selected year to view in the graph in matplotlib, by reading the chosen year’s attributes in its python text file or list. 
+
+
+7. Generate a report about the percentage of sunshine hours during an interval
+
+
+Through the interval function of comparing the weather data between two dates, the programme will be able to derive the percentage of the weather data having rain. This through analysing the same data, but not by visualization through MatPlotLib, rather through a direct numeric value, displayed on a graphic. 
+
+
+8.See a visual representation of another aspect of these metrics in the generated report (a relevant representation of your own choice)
+
+This will be executed as stated in point 7, but instead the amount of rain.
+
+
+9. View the data of a specific hour chosen by the user
+
+Generates a choice for the user to choose a specific hour it wants to view in the graph which is plotted by matplotlib. The hour choice that the user wants can be plotted by making a new list with the new time interval of one hour and using that to plot the graph.
